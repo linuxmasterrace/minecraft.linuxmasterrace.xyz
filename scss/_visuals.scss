@@ -1,0 +1,22 @@
+body {
+  background: $body-background;
+}
+
+.header {
+  background: $header-background url("../img/pattern.png") repeat;
+}
+
+.nav {
+  background: $nav-background;
+
+  ul li a {
+    background: $nav-item-background;
+    color: $nav-item-color;
+    text-decoration: none;
+
+    &:hover {
+      background: $nav-item-hover-background;
+      color: $nav-item-hover-color;
+    }
+  }
+}

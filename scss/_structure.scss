@@ -1,0 +1,46 @@
+html, body {
+  margin: 0;
+  width: 100%;
+}
+
+.wrap {
+  box-sizing: border-box;
+  max-width: $wrap-max-width;
+  margin: 0 auto;
+}
+
+.header {
+  padding: $header-padding;
+
+  .logo {
+
+
+    img {
+      height: $header-logo-height;
+    }
+  }
+  .text {
+    margin-left: $header-text-margin-left;
+  }
+}
+
+.nav {
+  margin-bottom: $nav-margin-bottom;
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      line-height: $nav-line-height;
+      list-style: none;
+      margin: $nav-item-margin;
+
+      a {
+        display: block;
+        padding: $nav-item-padding;
+      }
+    }
+  }
+}
