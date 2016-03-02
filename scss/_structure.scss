@@ -37,6 +37,7 @@ html, body {
       line-height: $nav-line-height;
       list-style: none;
       margin: $nav-item-margin;
+      z-index: 2;
 
       a {
         display: block;
