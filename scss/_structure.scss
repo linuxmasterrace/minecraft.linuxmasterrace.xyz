@@ -25,6 +25,7 @@ html, body {
 }
 
 .nav {
+  height: $nav-line-height;
   margin-bottom: $nav-margin-bottom;
 
   ul {
@@ -40,6 +41,18 @@ html, body {
       a {
         display: block;
         padding: $nav-item-padding;
+      }
+
+      ul {
+        display: none;
+        flex-direction: column;
+
+        li {
+
+        }
+      }
+      &:hover ul, ul:hover {
+        display: flex;
       }
     }
   }
